@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { User, LoginRequest, LoginResponse, Job, Application, HuggingFaceRankedApplication } from '../types';
 
 // Configure base URL - adjust this to match your backend
-const API_BASE_URL = 'http://localhost:9090/api';
+const API_BASE_URL = 'https://rollbasedlogin-4.onrender.com/api';
 
 // Create axios instance
 const api = axios.create({
