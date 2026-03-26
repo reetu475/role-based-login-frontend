@@ -159,7 +159,7 @@ export const AdminDashboard: React.FC = () => {
       console.log('User email:', user?.email);
       console.log('User role:', user?.role);
       console.log('Frontend URL:', window.location.href);
-      console.log('API Base URL:', 'http://localhost:8081/api');
+      console.log('API Base URL:', 'https://rollbasedlogin-4.onrender.com/api');
       
       // Test the API call
       console.log('Making API call...');
